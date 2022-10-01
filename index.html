@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body bgcolor="#effeff">
+        <br>
+        <center><font size="7" color="#2874a6">Registration Form</font></center>
+        <br><br>
+        <form>
+            <table border="0" bgcolor="#fdfefe" align="center">
+                <tr><td><br></td></tr>
+                <tr>
+                    <td><label for="name"> Name</label></td>
+                    <td><input type="text" placeholder="Enter Your Name" id="name" required maxlength="40" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fathername">Fathers Name</label></td>
+                    <td><input type="text" placeholder="Enter Your Fathers Name" id="fathername" required maxlength="40" required></td>
+                </tr>
+                <tr>
+                    <td><label for="dateofbirth"> Date of Birth</label></td>
+                    <td><input id="dateofbirth" type="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input id="age" type="number" min="21" max="60" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Email </label></td>
+                    <td><input id="mail" type="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="facebook">Facebook</label></td>
+                    <td><input id="facebook" type="url" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input id="password" type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="color">Favourite Color</label></td>
+                    <td><input id="color" type="color"></td>
+                </tr>
+                <tr>
+                    <td valign="top" ><p>Gender</p></td>
+                    <td>
+                        <input id="male" type="radio" name="gender">
+                        <label for="male">Male</label><br>
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">Female</label><br>
+                        <input id="other" type="radio" name="gender">
+                        <label for="other">Other</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><p>Hobby</p></td>
+                    <td>
+                        <input id="sweeming" type="checkbox">
+                        <label for="sweeming">Sweeming</label><br>
+                        <input id="reading" type="checkbox">
+                        <label for="reading">Reading</label><br>
+                        <input id="fishing" type="checkbox">
+                        <label for="fishing">Fishing</label><br>
+                        <input id="gardening" type="checkbox">
+                        <label for="gardening">Gardening</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="profession">Profession</label></td>
+                    <td>
+                        <select id="profession" required>
+                            <optgroup>
+                                <option selected>BCS Cader</option>
+                                <option>Doctor</option>
+                                <option>Engineer</option>
+                                <option> Govt Teacher</option>
+                            </optgroup>
+                            <optgroup>
+                                <option>Freelancer</option>
+                                <option>Private Job</option>
+                                <option disabled>Student</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="address">Address</label></td>
+                    <td><textarea id="addresss" placeholder="Your address" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Add Documents</label></td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Reset Form"></td>
+                    <td><input type="image" src="img/submit.gif" width="200"></td>
+                </tr>
+            </table><br>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html> 
